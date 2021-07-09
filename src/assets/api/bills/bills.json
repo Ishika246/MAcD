@@ -1,0 +1,41 @@
+[
+    {
+        "srNo": 1,
+        "itemName": "Burger",
+        "quantity":5,
+        "mrpPrice": 150,
+        "total":45.67,		
+        "discount": 30,
+        "fixPrice":100.00
+    },
+
+    {
+        "srNo": 2,
+        "itemName": "Pizza",
+        "quantity":10,
+        "mrpPrice": 150,
+        "total":30,		
+        "discount": 20,
+        "fixPrice":990.00
+        
+    },
+    {
+        "srNo": 3,
+        "itemName": "Chaumin",
+        "quantity":8,
+        "mrpPrice": 200,
+        "total":394,		
+        "discount": 10,
+        "fixPrice":109.00
+        
+    },
+    {
+        "srNo": 4,
+        "itemName": "Biryani",
+        "quantity":20,
+        "mrpPrice": 300,
+        "total":899,		
+        "discount": 90,
+        "fixPrice":900.00
+    }
+]

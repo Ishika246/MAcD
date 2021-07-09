@@ -1,0 +1,43 @@
+<p>bill works!</p>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Sr.No</th>
+        <th scope="col">Item Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">MRP Price</th>
+        <th scope="col">Total</th>
+        <th scope="col">Discount</th>
+        <th scope="col">Fixed Price</th>
+     </tr>
+    </thead>
+       
+    <tbody>
+        <tr *ngFor='let bill of bills'>
+           
+ 
+          <td>{{bill.billId}}</td>
+          <td>{{bill.itemName}}</td>
+          <td>{{bill.quantity}}</td>
+          <td>{{bill.mrpPrice}}</td>
+          <td>{{bill.total}}</td>
+          <td>{{bill.discount}}</td>
+          <td>{{bill.fixPrice}}</td>
+
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Total</td>
+    <td>{{total()}}</td>
+  </tr>
+        
+       
+    </tbody> 
+ </table>
+  
+ 
